@@ -3,7 +3,8 @@ const puppeteer = require('puppeteer')
 const { format } = require('date-fns');
 const { tr } = require("date-fns/locale");
 const { Resend } = require("resend");
-const { writeFile } = require('fs');
+const cron = require('node-cron');
+
 const stocks = [
     { name: "BIMAS", total: 20, purchasePrice: 186 },
     { name: "TKNSA", total: 68, purchasePrice: 24 },
@@ -236,4 +237,6 @@ async function main() {
     sendEmail(mailBody);
 }
 
-main();
+cron.schedule('0 11,16,19 * * *', () => {
+    main();
+});
