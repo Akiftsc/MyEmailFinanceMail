@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" initial-scale="1">
+    <meta name="x-apple-disable-message-reformatting">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=EB+Garamond:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <title>Piyasa Gündemi</title>
+    <style>
+        @media screen and (max-width: 750px) {
+            .container {
+                width: 100%;
+                margin: auto;
+            }
+        }
+
+        .container {
+            width: 100%;
+        }
+
+        /** put css here */
+
+        :root {
+            --main: #0c6c34;
+        }
+
+        body {
+            font-size: 24px;
+            font-family: 'DM Serif Display', serif;
+            margin: 0;
+            width: 100%;
+            text-rendering: optimizeLegibility;
+        }
+
+
+        .container {
+            background: #e5f8c0;
+            max-width: 700px;
+            text-align: center;
+        }
+
+        .container .title {
+            color: var(--main);
+            font-size: 48px;
+        }
+
+        .container table {
+            text-align: center;
+            width: 100%;
+        }
+
+        .container .currencies {
+            display: block;
+            height: 100%;
+            padding: 8px 0;
+            max-width: 700px;
+            padding: 8px;
+            font-size: 24px;
+            color: #f0f8ff;
+            background: #0c6c34b0;
+        }
+
+
+        .ctitle h1 {
+            width: 700px;
+            font-size: 36px;
+            color: inherit;
+            text-align: center;
+        }
+
+        .currencies td p {
+            text-align: left;
+            margin: 0 70px;
+            display: inline;
+        }
+
+        .stocks {
+            display: block;
+            height: 100%;
+            padding: 8px 0;
+            max-width: 700px;
+            padding: 8px;
+            font-size: 24px;
+            color: #0c6c34b0;
+        }
+
+        .currenyTable {
+            padding: 0px 30px;
+            margin: 10px 0;
+        }
+
+        .currenyTable table {
+            border-spacing: 0;
+            border-radius: 4px;
+            outline: 2px var(--main) solid;
+            margin: 10px 0px;
+            text-align: center;
+            width: 100%;
+        }
+
+        .currencyTitle {
+            color: #0c6c34;
+            font-size: 64px;
+        }
+
+        .currencySide {
+            padding: 0px 30px;
+            background-color: #0c6c34;
+            color: #e5f8c0;
+        }
+
+        .currencySide p {
+            font-size: 24px;
+        }
+    </style>
+</head>
+
+<body>
+    <table class="container" align="center" style="margin: 0 auto; width: 100%; max-width: 700; border-spacing: 0;"
+        role="presentation">
+        <tbody>
+            <tr>
+                <td align="center">
+                    <h1 class="title">
+                        Finans Gündemi 💸
+                        <p style="font-size: 20px;">6 Eylül 16:40</p>
+                    </h1>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table class="container currencies" align="center">
+                        <tbody width="700px" align="center">
+                            <tr align="center" class="ctitle">
+                                <td align="center">
+                                    <h1>Döviz</h1>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>💵 Dolar Kuru: 22₺</p>
+                                    <p>⧫ ETH: 35.000₺</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>💶 Euro Kuru: 22₺</p>
+                                    <p>₿ BTC: 35.000₺</p>
+                                </td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table class="container stocks" align="center">
+                        <tbody width="700px" align="center">
+                            <tr align="center" class="ctitle">
+                                <td align="center">
+                                    <h1>Hisse Senetleri</h1>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <table>
+                                        <!-- İtem -->
+                                        <tr>
+                                            <td class="currenyTable">
+                                                <table width="100%" align="center" role="presentation">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td style="padding: 0px 30px;">
+                                                                <h1 class="currenyTitle">
+                                                                    BIMAS
+                                                                </h1>
+                                                            </td>
+                                                            <td align="left" class="currencySide">
+                                                                <p>
+                                                                    Toplam: 10₺
+                                                                </p>
+                                                                <p>
+                                                                    Alınan Fiyat: 10₺
+                                                                </p>
+                                                                <p>
+                                                                    Güncel Satış: 10₺
+                                                                </p>
+                                                                <p>
+                                                                    Kâr: 78.00₺
+                                                                </p>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <!-- İtem -->
+                                        <tr>
+                                            <td class="currenyTable">
+                                                <table width="100%" align="center" role="presentation">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td style="padding: 0px 30px;">
+                                                                <h1 class="currenyTitle">
+                                                                    BIMAS
+                                                                </h1>
+                                                            </td>
+                                                            <td align="left" class="currencySide">
+                                                                <p>
+                                                                    Toplam: 10₺
+                                                                </p>
+                                                                <p>
+                                                                    Alınan Fiyat: 10₺
+                                                                </p>
+                                                                <p>
+                                                                    Güncel Satış: 10₺
+                                                                </p>
+                                                                <p>
+                                                                    Kâr: 78.00₺
+                                                                </p>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <p style="background-color: #0c6c34;color: #e5f8c0; padding: 10px; width:600px">
+                                        ⚠ Toplam Kâr/Zarar: <b>700₺</b>
+                                    </p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
